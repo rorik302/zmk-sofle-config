@@ -64,7 +64,7 @@
 &kp TAB         &kp Q   &kp W   &kp E         &kp R      &kp T     &kp DOWN_ARROW   &kp Y     &kp U      &kp I          &kp O    &kp P     &kp BSLH
 &kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F      &kp G     &kp LEFT_ARROW   &kp H     &kp J      &kp K          &kp L    &kp SEMI  &kp APOS
 &kp LCTRL       &kp Z   &kp X   &kp C         &kp V      &kp B     &kp RIGHT_ARROW  &kp N     &kp M      &kp COMMA      &kp DOT  &kp FSLH  &kp LA(LEFT_SHIFT)
-&kp C_MUTE      &trans  &trans  &kp LEFT_GUI  &kp SPACE  &mo 1     &kp ENTER        &lmt 2 2  &kp ENTER  &kp RIGHT_GUI  &trans   &trans
+&kp C_MUTE      &trans  &trans  &kp LEFT_GUI  &kp SPACE  &mo 1     &kp ENTER        &lmt 3 2  &kp ENTER  &kp RIGHT_GUI  &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -94,6 +94,18 @@
             >;
 
             label = "Numpad";
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans          &trans          &trans           &trans              &trans  &kp PRINTSCREEN  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kp HOME        &mmv MOVE_UP    &kp PAGE_UP      &trans              &trans  &trans           &mkp LCLK  &kp UP     &mkp RCLK  &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_X(300)    &trans  &trans           &kp LEFT   &kp DOWN   &kp RIGHT  &trans  &trans
+&trans  &trans  &kp END         &trans          &kp PAGE_DOWN    &mmv MOVE_Y(300)    &trans  &trans           &trans     &mkp MCLK  &trans     &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans              &trans  &trans           &trans     &trans     &trans     &trans
+            >;
+
+            label = "Nav";
         };
     };
 };
