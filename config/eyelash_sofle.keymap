@@ -98,11 +98,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans          &trans          &trans           &trans              &trans  &kp PRINTSCREEN  &trans     &trans     &trans     &trans  &trans
-&trans  &trans  &kp HOME        &mmv MOVE_UP    &kp PAGE_UP      &trans              &trans  &trans           &mkp LCLK  &kp UP     &mkp RCLK  &trans  &trans
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_X(300)    &trans  &trans           &kp LEFT   &kp DOWN   &kp RIGHT  &trans  &trans
-&trans  &trans  &kp END         &trans          &kp PAGE_DOWN    &mmv MOVE_Y(300)    &trans  &trans           &trans     &mkp MCLK  &trans     &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans              &trans  &trans           &trans     &trans     &trans     &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &kp PRINTSCREEN  &trans     &trans     &trans     &trans  &trans
+&trans  &trans  &kp HOME           &mmv MOVE_Y(-300)  &kp PAGE_UP       &trans    &trans  &trans           &mkp LCLK  &kp UP     &mkp RCLK  &trans  &trans
+&trans  &trans  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &trans    &trans  &trans           &kp LEFT   &kp DOWN   &kp RIGHT  &trans  &trans
+&trans  &trans  &kp END            &trans             &kp PAGE_DOWN     &trans    &trans  &trans           &trans     &mkp MCLK  &trans     &trans  &trans
+&trans  &trans  &trans             &trans             &trans            &trans    &trans  &trans           &trans     &trans     &trans     &trans
             >;
 
             label = "Nav";
