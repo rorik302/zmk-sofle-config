@@ -63,8 +63,8 @@ layers:
   - {t: Numpad, h: Nav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT GUI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
