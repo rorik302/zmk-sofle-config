@@ -144,11 +144,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &mkp MCLK          &trans            &trans  &trans
-&trans  &trans  &trans    &kp UP    &trans     &kp HOME    &trans  &kp PAGE_UP    &mkp LCLK          &mmv MOVE_Y(-500)  &mkp RCLK         &trans  &trans
-&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END     &trans  &kp PAGE_DOWN  &mmv MOVE_X(-500)  &mmv MOVE_Y(500)   &mmv MOVE_X(500)  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &trans             &trans            &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &trans             &trans            &trans
+&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &mkp MCLK               &trans            &trans  &trans
+&trans  &trans  &trans    &kp UP    &trans     &kp HOME    &trans  &kp PAGE_UP    &mkp LCLK          &mmv MOVE_Y(-400)       &mkp RCLK         &trans  &trans
+&trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp END     &trans  &kp PAGE_DOWN  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)        &mmv MOVE_X(400)  &trans  &trans
+&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &trans                  &trans            &trans  &trans
+&trans  &trans  &trans    &trans    &trans     &trans      &trans  &trans         &trans             &kp LA(K_CONTEXT_MENU)  &trans            &trans
             >;
 
             label = "Nav";
