@@ -57,11 +57,11 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - Numpad
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - Nav
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Symbols
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - RIGHT GUI
   - Misc
   - {t: '$$mdi:transfer$$', type: trans}
