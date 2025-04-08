@@ -28,8 +28,8 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
@@ -37,9 +37,9 @@ layers:
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: RIGHT GUI}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '''', h: '$$mdi:apple-keyboard-shift$$', s: '"'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -52,19 +52,19 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - Nav
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Symbols
   - RETURN
-  - RIGHT GUI
-  - $$mdi:apple-keyboard-option$$
-  - Alt+$$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Symbols:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
