@@ -125,11 +125,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &trans         &trans           &trans        &trans     &trans                  &trans  &trans                 &trans          &trans     &trans         &trans            &kp DELETE
-&kp TILDE  &kp LESS_THAN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET        &trans  &kp RIGHT_BRACKET      &kp MINUS       &kp PLUS   &kp SLASH      &kp GREATER_THAN  &trans
-&trans     &trans         &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_PARENTHESIS    &trans  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp EQUAL  &kp PIPE       &kp COLON         &kp SEMICOLON
-&trans     &trans         &kp AMPERSAND    &kp ASTERISK  &aqtd      &kp LEFT_BRACE          &trans  &kp RIGHT_BRACE        &kp COMMA       &kp DOT    &kp BACKSLASH  &kp QUESTION      &trans
-&trans     &trans         &trans           &trans        &trans     &trans                  &trans  &trans                 &trans          &trans     &trans         &trans
+&kp GRAVE  &trans         &trans           &trans        &trans     &trans                  &trans  &trans                 &trans          &trans      &trans         &trans            &kp DELETE
+&kp TILDE  &kp LESS_THAN  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH   &kp LEFT_BRACKET        &trans  &kp RIGHT_BRACKET      &kp MINUS       &kp PLUS    &kp SLASH      &kp GREATER_THAN  &trans
+&trans     &trans         &kp DOLLAR       &kp PERCENT   &kp CARET  &kp LEFT_PARENTHESIS    &trans  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp EQUAL   &kp PIPE       &kp COLON         &kp SEMICOLON
+&trans     &trans         &kp AMPERSAND    &kp ASTERISK  &aqtd      &kp LEFT_BRACE          &trans  &kp RIGHT_BRACE        &kp KP_COMMA    &kp KP_DOT  &kp BACKSLASH  &kp QUESTION      &trans
+&trans     &trans         &trans           &trans        &trans     &trans                  &trans  &trans                 &trans          &trans      &trans         &trans
             >;
 
             label = "Symbols";
