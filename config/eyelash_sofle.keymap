@@ -62,15 +62,6 @@
         hold-trigger-on-release;
     };
 
-    sgm: semi_grave_morph {
-        compatible = "zmk,behavior-mod-morph";
-        label = "SEMI_GRAVE_MORPH";
-        bindings = <&kp SQT>, <&kp GRAVE>;
-
-        #binding-cells = <0>;
-        mods = <(MOD_LCTL)>;
-    };
-
     aqtd: apostrophe_quote_tap_dance {
         compatible = "zmk,behavior-tap-dance";
         label = "APOSTROPHE_QUOTE_TAP_DANCE";
@@ -170,11 +161,11 @@
 
         layer_4 {
             bindings = <
-&bt BT_CLR  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &trans  &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp F11
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &kp F12
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans
-&trans      &trans        &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans          &trans  &trans           &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans           &trans
-&trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans           &trans           &trans           &trans           &trans
+&bt BT_CLR      &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &trans  &kp F6           &kp F7           &kp F8           &kp F9           &kp F10          &kp F11
+&sys_reset      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &kp F12
+&bootloader     &trans        &trans        &trans        &trans        &trans          &trans  &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &trans
+&studio_unlock  &trans        &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans          &trans  &trans           &trans           &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans           &trans
+&trans          &trans        &trans        &trans        &trans        &trans          &trans  &trans           &trans           &trans           &trans           &trans
             >;
 
             label = "Misc";
