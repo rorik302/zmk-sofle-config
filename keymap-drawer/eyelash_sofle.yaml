@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
-  - '&mmv MOVE_Y(-400)'
+  - {t: '$$mdi:menu-up$$', s: '&mmv MOVE_Y(-200)'}
   - $$mdi:pan-right$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -157,11 +157,11 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_X(-400)'
-  - '&mmv MOVE_Y(400)'
-  - '&mmv MOVE_X(400)'
+  - {t: '$$mdi:menu-left$$', s: '&mmv MOVE_X(-200)'}
+  - {t: '$$mdi:menu-down$$', s: '&mmv MOVE_Y(200)'}
+  - {t: '$$mdi:menu-left$$', s: '&mmv MOVE_X(200)'}
   - $$mdi:pan-down$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PgDn
