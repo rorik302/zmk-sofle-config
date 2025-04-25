@@ -73,7 +73,7 @@
     mmr: mouse_move_right {
         compatible = "zmk,behavior-mod-morph";
         label = "MOUSE_MOVE_RIGHT";
-        bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_X(200)>;
+        bindings = <&mmv MOVE_RIGHT>, <&mmv MOVE_X(200)>;
 
         #binding-cells = <0>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
