@@ -43,6 +43,42 @@
         hold-trigger-key-positions = <53 54 55 56 57 59 60 61 62 63>;
     };
 
+    mmu: mouse_move_up {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MOUSE_MOVE_UP";
+        bindings = <&mmv MOVE_UP>, <&mmv MOVE_Y(-200)>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    mmd: mouse_move_down {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MOUSE_MOVE_DOWN";
+        bindings = <&mmv MOVE_DOWN>, <&mmv MOVE_Y(200)>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    mml: mouse_move_left {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MOUSE_MOVE_LEFT";
+        bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_X(-200)>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
+    mmr: mouse_move_right {
+        compatible = "zmk,behavior-mod-morph";
+        label = "MOUSE_MOVE_RIGHT";
+        bindings = <&mmv MOVE_LEFT>, <&mmv MOVE_X(200)>;
+
+        #binding-cells = <0>;
+        mods = <(MOD_LSFT|MOD_RSFT)>;
+    };
+
     behaviors {
     };
 
@@ -80,11 +116,11 @@
 
         layer_2 {
             bindings = <
-&none       &none  &none              &none              &none             &none             &none  &kp PRINTSCREEN  &none      &none     &none      &none     &none
-&none       &none  &msc SCRL_LEFT     &mmv MOVE_Y(-400)  &msc SCRL_RIGHT   &msc SCRL_UP      &none  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
-&none       &none  &mmv MOVE_X(-400)  &mmv MOVE_Y(400)   &mmv MOVE_X(400)  &msc SCRL_DOWN    &none  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
-&bt BT_CLR  &none  &none              &none              &none             &none             &none  &none            &none      &none     &none      &none     &none
-&none       &none  &none              &none              &none             &none             &none  &none            &none      &none     &none      &none
+&none           &none  &none           &none  &none            &none             &none  &kp PRINTSCREEN  &none      &none     &none      &none     &none
+&none           &none  &msc SCRL_LEFT  &mmu   &msc SCRL_RIGHT  &msc SCRL_UP      &none  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
+&kp LEFT_SHIFT  &none  &mml            &mmd   &mmr             &msc SCRL_DOWN    &none  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
+&bt BT_CLR      &none  &none           &none  &none            &none             &none  &none            &none      &none     &none      &none     &none
+&none           &none  &none           &none  &none            &none             &none  &none            &none      &none     &none      &none
             >;
 
             label = "Nav";
