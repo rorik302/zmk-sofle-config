@@ -84,15 +84,6 @@
 
     combos { compatible = "zmk,combos"; };
 
-    macros {
-        dot_macro: dot_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOT>;
-            label = "DOT_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -101,7 +92,7 @@
 &kp ESCAPE      &kp N1        &kp N2          &kp N3               &kp N4  &kp N5             &none      &kp N6           &kp N7  &kp N8                   &kp N9           &kp N0         &kp BACKSPACE
 &kp TAB         &kp Q         &kp W           &kp E                &kp R   &kp T              &none      &kp Y            &kp U   &kp I                    &kp O            &kp P          &kp LEFT_BRACKET
 &kp LEFT_SHIFT  &kp A         &kp S           &kp D                &kp F   &kp G              &none      &kp H            &kp J   &kp K                    &kp L            &kp SEMICOLON  &kp APOSTROPHE
-&none           &kp Z         &kp X           &kp C                &kp V   &kp B              &none      &kp N            &kp M   &kp COMMA                &kp DOT          &none          &kp DELETE
+&none           &kp Z         &kp X           &kp C                &kp V   &kp B              &none      &kp N            &kp M   &kp COMMA                &kp DOT          &kp SLASH      &kp DELETE
 &kp C_MUTE      &kp LEFT_ALT  &kp LEFT_SHIFT  &mt LEFT_GUI DELETE  &mo 1   &mt LCTRL SPACE    &kp C_PIP  &mt RCTRL ENTER  &mo 2   &mt RIGHT_GUI BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_ALT
             >;
 
@@ -112,11 +103,11 @@
 
         layer_1 {
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4                &kp F5                   &none  &kp F6          &kp F7        &kp F8         &kp F9            &kp F10            &kp F11
-&none  &none   &none   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none  &kp QUESTION    &kp SLASH     &kp PIPE       &kp BACKSLASH     &kp SINGLE_QUOTE   &kp F12
-&none  &none   &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none  &kp UNDERSCORE  &kp MINUS     &kp PLUS       &kp EQUAL         &kp DOUBLE_QUOTES  &none
-&none  &none   &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE          &none  &kp SEMICOLON   &kp COLON     &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE          &kp TILDE
-&none  &none   &none   &none   &none                 &none                    &none  &none           &kp KP_COMMA  &dot_macro     &none             &none
+&none  &kp F1  &kp F2  &kp F3  &kp F4                &kp F5                   &none  &kp F6          &kp F7     &kp F8         &kp F9            &kp F10            &kp F11
+&none  &none   &none   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none  &kp QUESTION    &kp SLASH  &kp PIPE       &kp BACKSLASH     &kp SINGLE_QUOTE   &kp F12
+&none  &none   &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none  &kp UNDERSCORE  &kp MINUS  &kp PLUS       &kp EQUAL         &kp DOUBLE_QUOTES  &none
+&none  &none   &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE          &none  &kp SEMICOLON   &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE          &kp TILDE
+&none  &none   &none   &none   &none                 &none                    &none  &none           &kp COMMA  &kp DOT        &none             &none
             >;
 
             label = "Symbols";
