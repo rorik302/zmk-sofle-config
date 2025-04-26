@@ -51,7 +51,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
@@ -126,8 +126,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP COMMA
-  - '&dot_macro'
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   Nav:
