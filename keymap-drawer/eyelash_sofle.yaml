@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-left$$
-  - {t: '&mmv MOVE_X(-300)', s: '$$mdi:menu-up$$'}
+  - {t: '&mmv MOVE_Y(-300)', s: '$$mdi:menu-up$$'}
   - $$mdi:pan-right$$
   - $$mdi:pan-up$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
