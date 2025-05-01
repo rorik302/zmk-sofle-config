@@ -131,7 +131,7 @@
 &none  &none   &none   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none  &kp QUESTION    &kp SLASH  &kp PIPE       &kp BACKSLASH     &kp SINGLE_QUOTE   &kp F12
 &none  &none   &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none  &kp UNDERSCORE  &kp MINUS  &kp PLUS       &kp EQUAL         &kp DOUBLE_QUOTES  &none
 &none  &none   &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE          &none  &kp SEMICOLON   &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE          &kp TILDE
-&none  &none   &none   &none   &none                 &none                    &none  &none           &kp COMMA  &kp DOT        &none             &none
+&none  &none   &none   &none   &trans                &none                    &none  &none           &kp COMMA  &kp DOT        &none             &none
             >;
 
             label = "Symbols";
@@ -144,7 +144,7 @@
 &none           &none  &msc SCRL_LEFT  &mmu   &msc SCRL_RIGHT  &msc SCRL_UP      &none  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
 &kp LEFT_SHIFT  &none  &mml            &mmd   &mmr             &msc SCRL_DOWN    &none  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
 &none           &none  &none           &none  &none            &none             &none  &none            &none      &none     &none      &none     &none
-&none           &none  &none           &none  &none            &none             &none  &none            &none      &none     &none      &none
+&none           &none  &none           &none  &trans           &none             &none  &none            &none      &none     &none      &none
             >;
 
             label = "Nav";
