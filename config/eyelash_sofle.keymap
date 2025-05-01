@@ -46,7 +46,7 @@
     mmu: mouse_move_up {
         compatible = "zmk,behavior-mod-morph";
         label = "MOUSE_MOVE_UP";
-        bindings = <&mmv MOVE_X(-300)>, <&mmv MOVE_UP>;
+        bindings = <&mmv MOVE_Y(-300)>, <&mmv MOVE_UP>;
 
         #binding-cells = <0>;
         mods = <(MOD_LSFT|MOD_RSFT)>;
