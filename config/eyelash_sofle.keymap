@@ -29,26 +29,26 @@
 };
 
 / {
-    ls: lang_switch {
-        compatible = "zmk,behavior-lang-switch";
-        #binding-cells = <1>;
-        bindings = <&kp LANG_SW>;
-        layers = <ENG RU>;
-    };
-
-    ls_: lang_switch_no_layer {
-        compatible = "zmk,behavior-lang-switch";
-        #binding-cells = <1>;
-        bindings = <&kp LANG_SW>;
-        layers = <ENG RU>;
-        no-layer-switch;
-    };
-
-    kp_en: kp_on_eng {
-        compatible = "zmk,behavior-kp-on-lang";
-        #binding-cells = <1>;
-        bindings = <&ls_ ENG>;
-    };
+    /* ls: lang_switch { */
+    /*     compatible = "zmk,behavior-lang-switch"; */
+    /*     #binding-cells = <1>; */
+    /*     bindings = <&kp LANG_SW>; */
+    /*     layers = <ENG RU>; */
+    /* }; */
+    /**/
+    /* ls_: lang_switch_no_layer { */
+    /*     compatible = "zmk,behavior-lang-switch"; */
+    /*     #binding-cells = <1>; */
+    /*     bindings = <&kp LANG_SW>; */
+    /*     layers = <ENG RU>; */
+    /*     no-layer-switch; */
+    /* }; */
+    /**/
+    /* kp_en: kp_on_eng { */
+    /*     compatible = "zmk,behavior-kp-on-lang"; */
+    /*     #binding-cells = <1>; */
+    /*     bindings = <&ls_ ENG>; */
+    /* }; */
     
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
