@@ -123,11 +123,11 @@
           no-layer-switch;
       };
 
-      /* kp_en: kp_on_eng { */
-      /*     compatible = "zmk,behavior-kp-on-lang"; */
-      /*     #binding-cells = <1>; */
-      /*     bindings = <&ls_ ENG>; */
-      /* }; */
+      kp_en: kp_on_eng {
+          compatible = "zmk,behavior-kp-on-lang";
+          #binding-cells = <1>;
+          bindings = <&ls_ ENG>;
+      };
     };
 
     combos { compatible = "zmk,combos"; };
