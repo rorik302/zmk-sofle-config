@@ -24,7 +24,7 @@
     trigger-period-ms = <16>;
 };
 
-/ {    
+/ {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
@@ -109,19 +109,22 @@
     combos { compatible = "zmk,combos"; };
 
     macros {
-        uc_dash: uc_dash {
-            label = "UNICODE_DASH";
+        comma: comma {
+            label = "UNICODE_COMMA";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tap-ms = <0>;
             wait-ms = <0>;
-            bindings
-                = <&macro_press &kp LCTRL &kp LSHFT>
-                , <&macro_tap &kp U>
-                , <&macro_release &kp LCTRL &kp LSHFT>
-                , <&macro_tap &kp N2 &kp N0 &kp N1 &kp N4 &kp SPC>
-                ;
-        }; 
+            bindings =
+                <&macro_press>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp U>,
+                <&macro_release>,
+                <&kp LCTRL &kp LSHFT>,
+                <&macro_tap>,
+                <&kp N2 &kp N0 &kp N1 &kp A &kp SPC>;
+        };
     };
 
     keymap {
@@ -147,7 +150,7 @@
 &none  &none   &none   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none  &kp QUESTION    &kp SLASH  &kp PIPE       &kp BACKSLASH     &kp SINGLE_QUOTE   &kp F12
 &none  &none   &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none  &kp UNDERSCORE  &kp MINUS  &kp PLUS       &kp EQUAL         &kp DOUBLE_QUOTES  &none
 &none  &none   &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE          &none  &kp SEMICOLON   &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE          &kp TILDE
-&none  &trans  &trans  &trans  &trans                &trans                   &none  &trans          &kp COMMA  &kp PERIOD        &trans            &trans
+&none  &trans  &trans  &trans  &trans                &trans                   &none  &trans          &kp COMMA  &kp PERIOD     &trans            &trans
             >;
 
             label = "Symbols";
