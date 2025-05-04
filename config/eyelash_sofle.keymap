@@ -208,7 +208,7 @@
         /*     >; */
         /* }; */
 
-        symb_layer { // SYMB
+        ru_layer { // SYMB
             display-name = "Symbolic";
             bindings = <
             &kp_en TILDE  &kp_en AT    &kp_en PRCNT  &kp_en EXCL   &kp_en HASH      &kp_en SLASH  &kp_en QMARK  &kp_en LT     &kp_en GT    &kp_en BSLH
