@@ -198,15 +198,15 @@
 
         // RU_* keys are just #defines for each Russian letter on ЙЦУКЕН to QWERTY's English letter on the same place
         // &ru_b_jo and &ru_sh_sch are double taps, don't worry about, I'm weird.
-        ru_layer { // RU
-            display-name = "Russian";
-            bindings = <
-            &kp RU_F   &kp RU_YA  &ru_ss_hs  &kp RU_P   &ru_b_jo     &kp RU_H  &kp RU_L  &kp RU_Y    &kp RU_JI  &kp RU_ZH
-            &kp RU_A   &kp RU_R   &kp RU_S   &kp RU_T   &kp RU_G     &kp RU_M  &kp RU_N  &kp RU_E    &kp RU_I   &kp RU_O
-            &kp RU_CH  &kp RU_C   &kp RU_K   &kp RU_D   &kp RU_YI    &kp RU_Z  &kp RU_V  &ru_sh_sch  &kp RU_YU  &kp RU_IE
-                                       &lt SYMB SPACE   &sl FUNC     &lt NUM ESC  &mt LSHIFT BSPC
-            >;
-        };
+        /* ru_layer { // RU */
+        /*     display-name = "Russian"; */
+        /*     bindings = < */
+        /*     &kp RU_F   &kp RU_YA  &ru_ss_hs  &kp RU_P   &ru_b_jo     &kp RU_H  &kp RU_L  &kp RU_Y    &kp RU_JI  &kp RU_ZH */
+        /*     &kp RU_A   &kp RU_R   &kp RU_S   &kp RU_T   &kp RU_G     &kp RU_M  &kp RU_N  &kp RU_E    &kp RU_I   &kp RU_O */
+        /*     &kp RU_CH  &kp RU_C   &kp RU_K   &kp RU_D   &kp RU_YI    &kp RU_Z  &kp RU_V  &ru_sh_sch  &kp RU_YU  &kp RU_IE */
+        /*                                &lt SYMB SPACE   &sl FUNC     &lt NUM ESC  &mt LSHIFT BSPC */
+        /*     >; */
+        /* }; */
 
         symb_layer { // SYMB
             display-name = "Symbolic";
