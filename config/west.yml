@@ -8,8 +8,6 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: gpeye
       url-base: https://github.com/GPeye
-    - name: xopclabs
-      url-base: https://github.com/xopclabs
   projects:
     - name: eyelash_sofle
       url: https://github.com/a741725193/zmk-sofle
@@ -21,8 +19,5 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: zmk-lang-switch
-      remote: xopclabs
-      revision: main
   self:
     path: config
