@@ -1,4 +1,4 @@
-#define LANG_SW LA(LSHIFT)
+#define LANG_SW LC(RCTRL)
 
 #define RU_JO GRAVE
 #define RU_JI Q
