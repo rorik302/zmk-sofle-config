@@ -10,7 +10,7 @@
 
 #define ENG 0
 #define RU 1
-#define LANGSW LA(LSHIFT)
+#define LANG_SW LA(LSHIFT)
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 2 1>; };
 
@@ -184,6 +184,38 @@
             >;
 
             label = "System";
+        };
+
+        eng_layer { // ENG
+            display-name = "English";
+            bindings = <
+            &kp Q      &kp W      &kp F      &kp P      &kp B          &kp J      &kp L      &kp U      &kp Y      &sl ACCENT
+            &kp A      &kp R      &kp S      &kp T      &kp G          &kp M      &kp N      &kp E      &kp I      &kp O
+            &kp Z      &kp X      &kp C      &kp D      &kp V          &kp K      &kp H      &kp COMMA  &kp DOT    &kp FSLH
+                                       &lt SYMB SPACE   &sl FUNC      &lt NUM ESC  &mt LSHIFT BSPC
+            >;
+        };
+
+        // RU_* keys are just #defines for each Russian letter on ЙЦУКЕН to QWERTY's English letter on the same place
+        // &ru_b_jo and &ru_sh_sch are double taps, don't worry about, I'm weird.
+        ru_layer { // RU
+            display-name = "Russian";
+            bindings = <
+            &kp RU_F   &kp RU_YA  &ru_ss_hs  &kp RU_P   &ru_b_jo     &kp RU_H  &kp RU_L  &kp RU_Y    &kp RU_JI  &kp RU_ZH
+            &kp RU_A   &kp RU_R   &kp RU_S   &kp RU_T   &kp RU_G     &kp RU_M  &kp RU_N  &kp RU_E    &kp RU_I   &kp RU_O
+            &kp RU_CH  &kp RU_C   &kp RU_K   &kp RU_D   &kp RU_YI    &kp RU_Z  &kp RU_V  &ru_sh_sch  &kp RU_YU  &kp RU_IE
+                                       &lt SYMB SPACE   &sl FUNC     &lt NUM ESC  &mt LSHIFT BSPC
+            >;
+        };
+
+        symb_layer { // SYMB
+            display-name = "Symbolic";
+            bindings = <
+            &kp_en TILDE  &kp_en AT    &kp_en PRCNT  &kp_en EXCL   &kp_en HASH      &kp_en SLASH  &kp_en QMARK  &kp_en LT     &kp_en GT    &kp_en BSLH
+            &kp_en SQT    &kp_en LBKT  &kp_en RBKT   &kp_en EQUAL  &kp_en PLUS      &kp_en STAR   &kp_en UNDER  &kp_en LPAR   &kp_en RPAR  &kp_en MINUS
+            &kp_en COLON  &kp_en SEMI  &kp_en DQT    &kp_en CARET  &kp_en DLLR      &kp_en LBRC   &kp_en RBRC   &kp_en GRAVE  &kp_en AMPS  &kp_en PIPE
+                                            &kp SPACE  &kp BSPC    &kp_en PERIOD    &kp_en COMMA
+            >;
         };
     };
 
