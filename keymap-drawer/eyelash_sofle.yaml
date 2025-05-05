@@ -64,7 +64,7 @@ layers:
   - Nav
   - {t: '$$mdi:backspace$$', h: RIGHT GUI}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Numpad, h: toggle}
+  - {t: Numpad, h: '$$mdi:apple-keyboard-option$$'}
   Symbols:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1

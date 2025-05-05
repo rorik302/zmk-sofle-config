@@ -644,7 +644,7 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <a href="#Numpad">
 <text x="0" y="-4" class="key tap layer-activator">Numpad</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+</a><use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-option"/>
 </g>
 </g>
 </g>
