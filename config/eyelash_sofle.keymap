@@ -127,11 +127,11 @@
 
         layer_1 {
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4     &kp F5            &none  &kp F6             &kp F7                &kp F8              &kp F9                &kp F10                &kp F11
-&none  &none   &none   &none   &kp EQUAL  &kp PLUS          &none  &kp PIPE           &kp RA(LEFT_BRACKET)  &kp RA(SLASH)       &kp BACKSLASH         &kp RA(RIGHT_BRACKET)  &kp F12
-&none  &none   &none   &none   &kp MINUS  &kp UNDERSCORE    &none  &kp RA(SLASH)      &kp LEFT_PARENTHESIS  &kp RA(LEFT_BRACE)  &kp RA(RIGHT_BRACE)   &kp RIGHT_PARENTHESIS  &kp RA(LS(SINGLE_QUOTE))
-&none  &none   &none   &none   &none      &none             &none  &kp RA(SEMICOLON)  &kp RA(COLON)         &kp RA(LESS_THAN)   &kp RA(GREATER_THAN)  &kp RA(LS(SLASH))      &none
-&none  &trans  &trans  &trans  &trans     &trans            &none  &trans             &kp RA(COMMA)         &kp RA(DOT)         &trans                &trans
+&none  &kp F1  &kp F2  &kp F3  &kp F4     &kp F5            &none  &kp F6              &kp F7                &kp F8              &kp F9                &kp F10                &kp F11
+&none  &none   &none   &none   &kp EQUAL  &kp PLUS          &none  &kp PIPE            &kp RA(LEFT_BRACKET)  &kp RA(SLASH)       &kp BACKSLASH         &kp RA(RIGHT_BRACKET)  &kp F12
+&none  &none   &none   &none   &kp MINUS  &kp UNDERSCORE    &none  &kp RA(APOSTROPHE)  &kp LEFT_PARENTHESIS  &kp RA(LEFT_BRACE)  &kp RA(RIGHT_BRACE)   &kp RIGHT_PARENTHESIS  &kp RA(LS(SINGLE_QUOTE))
+&none  &none   &none   &none   &none      &none             &none  &kp RA(SEMICOLON)   &kp RA(COLON)         &kp RA(LESS_THAN)   &kp RA(GREATER_THAN)  &kp RA(LS(SLASH))      &kp TILDE
+&none  &trans  &trans  &trans  &trans     &trans            &none  &trans              &kp RA(COMMA)         &kp RA(DOT)         &trans                &trans
             >;
 
             label = "Symbols";
