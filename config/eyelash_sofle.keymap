@@ -127,11 +127,11 @@
 
         layer_1 {
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4                &kp F5                   &none  &kp F6          &kp F7     &kp F8         &kp F9            &kp F10            &kp F11
-&none  &none   &none   &none   &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &none  &kp QUESTION    &kp SLASH  &kp PIPE       &kp BACKSLASH     &kp SINGLE_QUOTE   &kp F12
-&none  &none   &none   &none   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &none  &kp UNDERSCORE  &kp MINUS  &kp PLUS       &kp EQUAL         &kp DOUBLE_QUOTES  &none
-&none  &none   &none   &none   &kp LEFT_BRACE        &kp RIGHT_BRACE          &none  &kp SEMICOLON   &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp GRAVE          &kp TILDE
-&none  &trans  &trans  &trans  &trans                &trans                   &none  &trans          &kp COMMA  &kp DOT        &trans            &trans
+&none  &kp F1  &kp F2  &kp F3  &kp F4     &kp F5            &none  &kp F6             &kp F7                &kp F8          &kp F9            &kp F10                &kp F11
+&none  &none   &none   &none   &kp EQUAL  &kp PLUS          &none  &kp PIPE           &kp LEFT_BRACKET      &kp LESS_THAN   &kp GREATER_THAN  &kp RIGHT_BRACKET      &kp F12
+&none  &none   &none   &none   &kp MINUS  &kp UNDERSCORE    &none  &kp SLASH          &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp RIGHT_PARENTHESIS  &kp RA(SINGLE_QUOTE)
+&none  &none   &none   &none   &none      &none             &none  &kp RA(LS(COMMA))  &kp RA(LS(DOT))       &none           &none             &kp RA(SLASH)          &none
+&none  &trans  &trans  &trans  &trans     &trans            &none  &trans             &kp RA(COMMA)         &kp RA(DOT)     &trans            &trans
             >;
 
             label = "Symbols";
