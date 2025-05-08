@@ -87,10 +87,10 @@ layers:
   - +
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '|'
-  - {t: '[', s: '{'}
-  - <
-  - '>'
-  - {t: ']', s: '}'}
+  - {t: 'AltGr+[', s: 'AltGr+{'}
+  - {t: AltGr+/, s: 'AltGr+?'}
+  - {t: \, s: '|'}
+  - {t: 'AltGr+]', s: 'AltGr+}'}
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -101,8 +101,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: AltGr+/, s: 'AltGr+?'}
   - (
-  - '{'
-  - '}'
+  - AltGr+{
+  - AltGr+}
   - )
   - {t: AltGr+Sft+', s: AltGr+Sft+"}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -114,8 +114,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: AltGr+;, s: 'AltGr+:'}
   - 'AltGr+:'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+<
+  - '>'
   - {t: AltGr+Sft+/, s: 'AltGr+Sft+?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
