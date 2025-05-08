@@ -99,7 +99,7 @@ layers:
   - {t: '-', s: _}
   - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: AltGr+/, s: 'AltGr+?'}
+  - {t: AltGr+', s: AltGr+"}
   - (
   - AltGr+{
   - AltGr+}
@@ -117,7 +117,7 @@ layers:
   - AltGr+<
   - AltGr+>
   - {t: AltGr+Sft+/, s: 'AltGr+Sft+?'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
