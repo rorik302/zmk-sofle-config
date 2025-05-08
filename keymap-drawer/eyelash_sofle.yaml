@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: ']', s: '}'}
   - $$mdi:volume-off$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
@@ -99,12 +99,12 @@ layers:
   - {t: '-', s: _}
   - _
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: /, s: '?'}
+  - {t: AltGr+/, s: 'AltGr+?'}
   - (
   - '{'
   - '}'
   - )
-  - {t: AltGr+', s: AltGr+"}
+  - {t: AltGr+Sft+', s: AltGr+Sft+"}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -112,11 +112,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: 'AltGr+Sft+,', s: AltGr+Sft+<}
-  - {t: AltGr+Sft+., s: AltGr+Sft+>}
+  - {t: AltGr+;, s: 'AltGr+:'}
+  - 'AltGr+:'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: AltGr+/, s: 'AltGr+?'}
+  - {t: AltGr+Sft+/, s: 'AltGr+Sft+?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
