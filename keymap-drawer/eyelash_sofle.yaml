@@ -80,44 +80,44 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+Q
+  - AltGr+W
+  - AltGr+E
+  - AltGr+R
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '=', s: +}
-  - +
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '|'
-  - {t: 'AltGr+[', s: 'AltGr+{'}
-  - {t: AltGr+/, s: 'AltGr+?'}
-  - {t: \, s: '|'}
-  - {t: 'AltGr+]', s: 'AltGr+}'}
+  - AltGr+Y
+  - AltGr+U
+  - AltGr+I
+  - AltGr+O
+  - AltGr+P
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
-  - _
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: AltGr+', s: AltGr+"}
-  - (
-  - AltGr+{
-  - AltGr+}
-  - )
-  - {t: AltGr+Sft+', s: AltGr+Sft+"}
+  - AltGr+D
+  - AltGr+F
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+H
+  - AltGr+J
+  - AltGr+K
+  - AltGr+L
   - {t: AltGr+;, s: 'AltGr+:'}
-  - 'AltGr+:'
-  - AltGr+<
-  - AltGr+>
-  - {t: AltGr+Sft+/, s: 'AltGr+Sft+?'}
-  - '~'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+X
+  - AltGr+C
+  - AltGr+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+N
+  - AltGr+M
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
