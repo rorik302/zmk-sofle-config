@@ -85,8 +85,8 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <350>;
-        require-prior-idle-ms = <250>;
+        tapping-term-ms = <170>;
+        require-prior-idle-ms = <125>;
         flavor = "balanced";
         hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51>;
     };
@@ -97,8 +97,8 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <350>;
-        require-prior-idle-ms = <250>;
+        tapping-term-ms = <170>;
+        require-prior-idle-ms = <125>;
         flavor = "balanced";
         hold-trigger-key-positions = <0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44>;
     };
@@ -127,11 +127,11 @@
 
         layer_1 {
             bindings = <
-&none  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5    &none  &kp F6     &kp F7         &kp F8       &kp F9     &kp F10            &kp F11
-&none  &kp RA(Q)  &kp RA(W)  &kp RA(E)  &kp RA(R)  &none     &none  &kp RA(Y)  &kp RA(U)      &kp RA(I)    &kp RA(O)  &kp RA(P)          &kp F12
-&none  &none      &none      &kp RA(D)  &kp RA(F)  &none     &none  &kp RA(H)  &kp RA(J)      &kp RA(K)    &kp RA(L)  &kp RA(SEMICOLON)  &none
-&none  &none      &kp RA(X)  &kp RA(C)  &kp RA(V)  &none     &none  &kp RA(N)  &kp RA(M)      &none        &none      &none              &none
-&none  &trans     &trans     &trans     &trans     &trans    &none  &trans     &kp RA(COMMA)  &kp RA(DOT)  &trans     &trans
+&none  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5    &none  &kp F6     &kp F7           &kp F8       &kp F9     &kp F10            &kp F11
+&none  &kp RA(Q)  &kp RA(W)  &kp RA(E)  &kp RA(R)  &none     &none  &kp RA(Y)  &kp RA(U)        &kp RA(I)    &kp RA(O)  &kp RA(P)          &kp F12
+&none  &none      &none      &kp RA(D)  &kp RA(F)  &none     &none  &kp RA(H)  &kp RA(J)        &kp RA(K)    &kp RA(L)  &kp RA(SEMICOLON)  &none
+&none  &none      &kp RA(X)  &kp RA(C)  &kp RA(V)  &none     &none  &kp RA(N)  &kp RA(M)        &none        &none      &none              &none
+&none  &trans     &trans     &trans     &trans     &trans    &none  &trans     &lt 2 RA(COMMA)  &kp RA(DOT)  &trans     &trans
             >;
 
             label = "Symbols";
