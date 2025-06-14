@@ -64,7 +64,7 @@ layers:
   - Nav
   - {t: '$$mdi:backspace$$', h: RIGHT GUI}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:apple-keyboard-shift$$
   Symbols:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
