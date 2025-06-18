@@ -150,7 +150,7 @@
 
         layer_3 {
             bindings = <
-&to 0   &to 1   &to 2   &to 3   &to 4   &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0   &tog 1  &tog 2  &tog 3  &tog 4  &tog 5    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
