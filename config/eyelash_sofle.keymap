@@ -113,11 +113,11 @@
 
         layer0 {
             bindings = <
-&kp ESCAPE        &kp N1           &kp N2           &kp N3               &kp N4               &kp N5             &none  &kp N6           &kp N7                &kp N8                   &kp N9           &kp N0                    &kp BACKSPACE
-&kp TAB           &kp Q            &kp W            &kp E                &kp R                &kp T              &none  &kp Y            &kp U                 &kp I                    &kp O            &kp P                     &kp LEFT_BRACKET
-&kp LEFT_SHIFT    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D    &hml LEFT_CONTROL F  &kp G              &none  &kp H            &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K       &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp APOSTROPHE
-&kp LEFT_CONTROL  &kp Z            &kp X            &kp C                &kp V                &kp B              &none  &kp N            &kp M                 &kp COMMA                &kp DOT          &kp SLASH                 &kp RIGHT_BRACKET
-&kp C_MUTE        &trans           &trans           &mt LEFT_GUI DELETE  &mo 1                &mt LCTRL SPACE    &none  &mt RCTRL ENTER  &mo 2                 &mt RIGHT_GUI BACKSPACE  &trans           &kp LA(LEFT_SHIFT)
+&kp ESCAPE        &kp N1           &kp N2           &kp N3             &kp N4               &kp N5             &none  &kp N6           &kp N7                &kp N8              &kp N9           &kp N0                    &kp BACKSPACE
+&kp TAB           &kp Q            &kp W            &kp E              &kp R                &kp T              &none  &kp Y            &kp U                 &kp I               &kp O            &kp P                     &kp LEFT_BRACKET
+&kp LEFT_SHIFT    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G              &none  &kp H            &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp APOSTROPHE
+&kp LEFT_CONTROL  &kp Z            &kp X            &kp C              &kp V                &kp B              &none  &kp N            &kp M                 &kp COMMA           &kp DOT          &kp SLASH                 &kp RIGHT_BRACKET
+&kp C_MUTE        &trans           &trans           &kp LEFT_GUI       &mo 1                &mt LCTRL SPACE    &none  &mt RCTRL ENTER  &mo 2                 &kp RIGHT_GUI       &trans           &kp LA(LEFT_SHIFT)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -140,7 +140,7 @@
 
         layer_2 {
             bindings = <
-&none           &none   &none           &none   &none            &none             &none  &kp PRINTSCREEN  &none      &none     &none      &none     &none
+&none           &none   &none           &none   &none            &none             &none  &kp PRINTSCREEN  &none      &none     &none      &none     &kp DELETE
 &none           &none   &msc SCRL_LEFT  &mmu    &msc SCRL_RIGHT  &msc SCRL_UP      &none  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
 &kp LEFT_SHIFT  &none   &mml            &mmd    &mmr             &msc SCRL_DOWN    &none  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
 &none           &none   &none           &none   &none            &none             &none  &none            &none      &none     &none      &none     &none
