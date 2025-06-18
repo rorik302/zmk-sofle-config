@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-5$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-7$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BRIGHTNESS MINIMUM
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BRIGHTNESS MAXIMUM
   - N
   - M
   - {t: ',', s: <}
@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - Symbols
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - BRIGHTNESS AUTO
   - RETURN
   - Nav
   - RIGHT GUI
@@ -72,7 +72,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - '&'
   - '*'
@@ -85,7 +85,7 @@ layers:
   - AltGr+E
   - AltGr+R
   - AltGr+T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+Y
   - AltGr+U
   - AltGr+I
@@ -98,7 +98,7 @@ layers:
   - AltGr+D
   - AltGr+F
   - AltGr+G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+H
   - AltGr+J
   - AltGr+K
@@ -111,7 +111,7 @@ layers:
   - AltGr+C
   - AltGr+V
   - AltGr+B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+N
   - AltGr+M
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -124,7 +124,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: 'AltGr+,', h: Nav, s: AltGr+<}
   - {t: AltGr+., s: AltGr+>}
@@ -137,7 +137,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -150,7 +150,7 @@ layers:
   - {t: '&mmv MOVE_Y(-300)', s: '$$mdi:menu-up$$'}
   - $$mdi:pan-right$$
   - $$mdi:pan-up$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
@@ -163,7 +163,7 @@ layers:
   - {t: '&mmv MOVE_Y(300)', s: '$$mdi:menu-down$$'}
   - {t: '&mmv MOVE_X(300)', s: '$$mdi:menu-right$$'}
   - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -176,7 +176,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -189,7 +189,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
