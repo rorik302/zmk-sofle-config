@@ -112,11 +112,11 @@
 
         layer0 {
             bindings = <
-&kp ESCAPE        &kp N1           &kp N2           &kp N3             &kp N4               &kp N5       &none  &kp N6      &kp N7                &kp N8              &kp N9           &kp N0                    &kp BACKSPACE
-&kp TAB           &kp Q            &kp W            &kp E              &kp R                &kp T        &none  &kp Y       &kp U                 &kp I               &kp O            &kp P                     &kp LEFT_BRACKET
-&kp LEFT_SHIFT    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G        &none  &kp H       &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp APOSTROPHE
-&kp LEFT_CONTROL  &kp Z            &kp X            &kp C              &kp V                &kp B        &none  &kp N       &kp M                 &kp COMMA           &kp DOT          &kp SLASH                 &kp RIGHT_BRACKET
-&kp C_MUTE        &mo 4            &trans           &kp LEFT_GUI       &mo 1                &kp SPACE    &none  &kp RETURN  &mo 2                 &kp RIGHT_GUI       &trans           &kp LA(LEFT_SHIFT)
+&kp ESCAPE        &kp N1           &kp N2           &kp N3             &kp N4               &kp N5       &kp C_BRIGHTNESS_INC      &kp N6      &kp N7                &kp N8              &kp N9           &kp N0                    &kp BACKSPACE
+&kp TAB           &kp Q            &kp W            &kp E              &kp R                &kp T        &kp C_BRIGHTNESS_DEC      &kp Y       &kp U                 &kp I               &kp O            &kp P                     &kp LEFT_BRACKET
+&kp LEFT_SHIFT    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_SHIFT D  &hml LEFT_CONTROL F  &kp G        &kp C_BRIGHTNESS_MINIMUM  &kp H       &hmr RIGHT_CONTROL J  &hmr RIGHT_SHIFT K  &hmr LEFT_ALT L  &hmr RIGHT_GUI SEMICOLON  &kp APOSTROPHE
+&kp LEFT_CONTROL  &kp Z            &kp X            &kp C              &kp V                &kp B        &kp C_BRIGHTNESS_MAXIMUM  &kp N       &kp M                 &kp COMMA           &kp DOT          &kp SLASH                 &kp RIGHT_BRACKET
+&kp C_MUTE        &mo 4            &trans           &kp LEFT_GUI       &mo 1                &kp SPACE    &kp C_BRIGHTNESS_AUTO     &kp RETURN  &mo 2                 &kp RIGHT_GUI       &trans           &kp LA(LEFT_SHIFT)
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -126,11 +126,11 @@
 
         layer_1 {
             bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &none  &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
-&none   &kp RA(Q)        &kp RA(W)    &kp RA(E)  &kp RA(R)   &kp RA(T)      &none  &kp RA(Y)  &kp RA(U)        &kp RA(I)     &kp RA(O)             &kp RA(P)              &none
-&trans  &kp RA(A)        &kp RA(S)    &kp RA(D)  &kp RA(F)   &kp RA(G)      &none  &kp RA(H)  &kp RA(J)        &kp RA(K)     &kp RA(L)             &kp RA(SEMICOLON)      &none
-&none   &kp RA(Z)        &kp RA(X)    &kp RA(C)  &kp RA(V)   &kp RA(B)      &none  &kp RA(N)  &kp RA(M)        &none         &none                 &kp RA(SLASH)          &none
-&none   &trans           &trans       &trans     &trans      &trans         &none  &trans     &lt 2 RA(COMMA)  &kp RA(DOT)   &trans                &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT    &trans  &kp CARET  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
+&none   &kp RA(Q)        &kp RA(W)    &kp RA(E)  &kp RA(R)   &kp RA(T)      &trans  &kp RA(Y)  &kp RA(U)        &kp RA(I)     &kp RA(O)             &kp RA(P)              &none
+&trans  &kp RA(A)        &kp RA(S)    &kp RA(D)  &kp RA(F)   &kp RA(G)      &trans  &kp RA(H)  &kp RA(J)        &kp RA(K)     &kp RA(L)             &kp RA(SEMICOLON)      &none
+&none   &kp RA(Z)        &kp RA(X)    &kp RA(C)  &kp RA(V)   &kp RA(B)      &trans  &kp RA(N)  &kp RA(M)        &none         &none                 &kp RA(SLASH)          &none
+&none   &trans           &trans       &trans     &trans      &trans         &trans  &trans     &lt 2 RA(COMMA)  &kp RA(DOT)   &trans                &trans
             >;
 
             label = "Symbols";
@@ -139,11 +139,11 @@
 
         layer_2 {
             bindings = <
-&trans          &none   &none           &none   &none            &none             &none  &kp PRINTSCREEN  &none      &none     &none      &none     &kp DELETE
-&none           &none   &msc SCRL_LEFT  &mmu    &msc SCRL_RIGHT  &msc SCRL_UP      &none  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
-&kp LEFT_SHIFT  &none   &mml            &mmd    &mmr             &msc SCRL_DOWN    &none  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
-&none           &none   &none           &none   &none            &none             &none  &none            &none      &none     &none      &none     &none
-&none           &trans  &trans          &trans  &trans           &trans            &none  &trans           &trans     &trans    &trans     &trans
+&trans          &none   &none           &none   &none            &none             &trans  &kp PRINTSCREEN  &none      &none     &none      &none     &kp DELETE
+&none           &none   &msc SCRL_LEFT  &mmu    &msc SCRL_RIGHT  &msc SCRL_UP      &trans  &kp PAGE_UP      &mkp LCLK  &kp UP    &mkp RCLK  &kp HOME  &none
+&kp LEFT_SHIFT  &none   &mml            &mmd    &mmr             &msc SCRL_DOWN    &trans  &kp PAGE_DOWN    &kp LEFT   &kp DOWN  &kp RIGHT  &kp END   &none
+&none           &none   &none           &none   &none            &none             &trans  &none            &none      &none     &none      &none     &none
+&none           &trans  &trans          &trans  &trans           &trans            &trans  &trans           &trans     &trans    &trans     &trans
             >;
 
             label = "Nav";
