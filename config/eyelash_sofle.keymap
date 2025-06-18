@@ -134,7 +134,6 @@
             >;
 
             label = "Symbols";
-            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         layer_2 {
