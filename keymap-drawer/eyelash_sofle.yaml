@@ -201,7 +201,7 @@ layers:
   - {t: Nav, h: toggle}
   - {t: System, h: toggle}
   - {t: Numpad, h: toggle}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Functional keys, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
