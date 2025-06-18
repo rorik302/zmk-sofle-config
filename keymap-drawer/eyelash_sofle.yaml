@@ -66,19 +66,19 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+$$mdi:apple-keyboard-shift$$
   Symbols:
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+Q
   - AltGr+W
@@ -91,7 +91,7 @@ layers:
   - AltGr+I
   - AltGr+O
   - AltGr+P
-  - F12
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - AltGr+A
   - AltGr+S
@@ -131,7 +131,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Nav:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
