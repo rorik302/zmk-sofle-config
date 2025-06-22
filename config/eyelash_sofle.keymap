@@ -132,7 +132,7 @@
 &none   &kp RA(Q)        &kp RA(W)    &kp RA(E)  &kp RA(R)   &kp RA(T)      &trans  &kp RA(Y)  &kp RA(U)        &kp RA(I)     &kp RA(O)             &kp RA(P)              &none
 &trans  &kp RA(A)        &kp RA(S)    &kp RA(D)  &kp RA(F)   &kp RA(G)      &trans  &kp RA(H)  &kp RA(J)        &kp RA(K)     &kp RA(L)             &kp RA(SEMICOLON)      &none
 &none   &kp RA(Z)        &kp RA(X)    &kp RA(C)  &kp RA(V)   &kp RA(B)      &trans  &kp RA(N)  &kp RA(M)        &none         &none                 &kp RA(SLASH)          &none
-&none   &trans           &trans       &trans     &trans      &trans         &trans  &trans     &lt 2 RA(COMMA)  &kp RA(DOT)   &trans                &trans
+&none   &trans           &trans       &trans     &trans      &trans         &trans  &trans     &lt 2 RA(COMMA)  &kp RA(DOT)   &kp MINUS             &kp EQUAL
             >;
 
             label = "Symbols";
