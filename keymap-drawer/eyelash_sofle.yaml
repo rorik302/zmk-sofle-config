@@ -30,13 +30,13 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
-  - D
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - BRIGHTNESS MINIMUM
   - H
-  - J
-  - K
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
