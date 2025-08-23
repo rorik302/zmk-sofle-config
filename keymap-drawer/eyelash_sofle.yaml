@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '[', s: '{'}
-  - Nav
+  - Symbols
   - A
   - S
   - D
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - Symbols
+  - Nav
   - Z
   - X
   - C
@@ -92,7 +92,7 @@ layers:
   - AltGr+O
   - AltGr+P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - AltGr+A
   - AltGr+S
   - AltGr+D
@@ -105,7 +105,7 @@ layers:
   - AltGr+L
   - {t: AltGr+;, s: 'AltGr+:'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - AltGr+Z
   - AltGr+X
   - AltGr+C
@@ -157,7 +157,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '&mmv MOVE_X(-300)', s: '$$mdi:menu-left$$'}
   - {t: '&mmv MOVE_Y(300)', s: '$$mdi:menu-down$$'}
@@ -170,7 +170,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
