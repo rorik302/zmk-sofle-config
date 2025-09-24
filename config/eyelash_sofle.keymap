@@ -100,5 +100,19 @@
             display-name = "LAYER0";
             label = "en";
         };
+
+        RU {
+            label = "ru";
+            display-name = "LAYER0";
+            bindings = <
+&kp ESCAPE  &kp N1                   &kp N2                &kp N3              &kp N4              &kp N5                               &kp C_BRIGHTNESS_INC  &kp N6              &kp N7                                           &kp N8               &kp N9                 &kp N0               &kp BACKSPACE
+&kp TAB     &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &mt RU_CYRILLIC_IO RU_CYRILLIC_IE    &kp C_BRIGHTNESS_DEC  &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE                              &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&none       &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE                   &none                 &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O                                &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&none       &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I                    &none                 &kp RU_CYRILLIC_TE  &mt RU_CYRILLIC_HARD_SIGN RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp DOT              &none
+&kp C_MUTE  &none                    &none                 &kp LEFT_GUI        &none               &kp SPACE                            &none                 &kp ENTER           &none                                            &kp RIGHT_GUI        &none                  &none
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
     };
 };
