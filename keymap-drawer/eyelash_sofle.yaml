@@ -212,9 +212,9 @@ combos:
   k: Sft+$$mdi:apple-keyboard-control$$
 - p: [34, 35, 36]
   k: Sft+$$mdi:apple-keyboard-control$$
-- p: [17, 16]
-  k: {t: RU, h: toggle}
-  l: [en]
-- p: [17, 16]
-  k: {t: en, h: toggle}
+- p: [15, 16]
+  k: '&layer_en'
   l: [RU]
+- p: [15, 16]
+  k: '&layer_ru'
+  l: [en]
