@@ -9,14 +9,13 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Build
-        uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
-      - name: Draw
-        uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
-        # permissions:
-        #   contents: write
-        with:
-          destination: "commit"
-          fail_on_error: ${{ fromJSON(true) }}
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+  draw:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    needs:
+      - build
+    permissions:
+      contents: write
+    with:
+      destination: "commit"
+      fail_on_error: ${{ fromJSON(true) }}
