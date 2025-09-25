@@ -44,43 +44,57 @@
         left_ctrl {
             bindings = <&kp LCTRL>;
             key-positions = <30 29>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
         };
 
         right_ctrl {
             bindings = <&kp RCTRL>;
             key-positions = <34 35>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
         };
 
         left_shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <30 28>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
         };
 
         right_shift {
             bindings = <&kp RIGHT_SHIFT>;
             key-positions = <34 36>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
         };
 
         left_alt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <30 27>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
         };
 
         right_alt {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <34 37>;
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             require-prior-idle-ms = <175>;
+        };
+
+        left_ctrl+shift {
+            bindings = <&kp LS(LCTRL)>;
+            key-positions = <30 29 28>;
+            require-prior-idle-ms = <175>;
+            timeout-ms = <40>;
+        };
+
+        right_shift+ctrl {
+            bindings = <&kp RS(RCTRL)>;
+            key-positions = <34 35 36>;
+            require-prior-idle-ms = <175>;
+            timeout-ms = <40>;
         };
     };
 
