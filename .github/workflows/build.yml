@@ -14,8 +14,8 @@ jobs:
         uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
       - name: Draw
         uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
-        permissions:
-          contents: write
+        # permissions:
+        #   contents: write
         with:
           destination: "commit"
           fail_on_error: ${{ fromJSON(true) }}
