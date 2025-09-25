@@ -208,3 +208,7 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [34, 37]
   k: $$mdi:apple-keyboard-option$$
+- p: [30, 29, 28]
+  k: Sft+$$mdi:apple-keyboard-control$$
+- p: [34, 35, 36]
+  k: Sft+$$mdi:apple-keyboard-control$$
