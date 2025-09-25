@@ -175,7 +175,7 @@
 &kp TAB     &kp Q   &kp W   &kp E         &kp R   &kp T        &kp C_BRIGHTNESS_DEC  &kp Y      &kp U   &kp I          &kp O    &kp P     &none
 &none       &kp A   &kp S   &kp D         &kp F   &kp G        &none                 &kp H      &kp J   &kp K          &kp L    &kp SEMI  &kp APOS
 &none       &kp Z   &kp X   &kp C         &kp V   &kp B        &none                 &kp N      &kp M   &kp COMMA      &kp DOT  &kp FSLH  &none
-&kp C_MUTE  &none   &none   &kp LEFT_GUI  &mo 2   &kp SPACE    &none                 &kp ENTER  &none   &kp RIGHT_GUI  &none    &none
+&kp C_MUTE  &none   &none   &kp LEFT_GUI  &mo 2   &kp SPACE    &none                 &kp ENTER  &mo 4   &kp RIGHT_GUI  &none    &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -218,6 +218,18 @@
 &none  &none          &kp ASTERISK          &en COLON  &en SLASH              &none        &none  &none        &kp PIPE          &en TILDE       &kp AMPERSAND      &none            &none
 &none  &none          &none                 &none      &none                  &none        &none  &none        &none             &none           &none              &none
             >;
+        };
+
+        NAV {
+            bindings = <
+&none  &none  &none              &none              &none             &none    &none  &none          &none      &none      &none      &none     &kp DELETE
+&none  &none  &none              &mmv MOVE_Y(-300)  &none             &none    &none  &kp PAGE_UP    &mkp LCLK  &mkp MCLK  &mkp RCLK  &kp HOME  &none
+&none  &none  &mmv MOVE_X(-300)  &mmv MOVE_Y(300)   &mmv MOVE_X(300)  &none    &none  &kp LEFT       &kp DOWN   &kp UP     &kp RIGHT  &none     &none
+&none  &none  &none              &none              &none             &none    &none  &kp PAGE_DOWN  &none      &none      &none      &kp END   &none
+&none  &none  &none              &none              &none             &none    &none  &none          &none      &none      &none      &none
+            >;
+
+            label = "nav";
         };
     };
 };
