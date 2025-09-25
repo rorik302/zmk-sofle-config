@@ -96,6 +96,22 @@
             require-prior-idle-ms = <175>;
             timeout-ms = <40>;
         };
+
+        layer_ru {
+            bindings = <&to 1>;
+            key-positions = <17 16>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <175>;
+            layers = <0>;
+        };
+
+        layer_en {
+            bindings = <&to 0>;
+            key-positions = <17 16>;
+            timeout-ms = <40>;
+            require-prior-idle-ms = <175>;
+            layers = <1>;
+        };
     };
 
     keymap {
