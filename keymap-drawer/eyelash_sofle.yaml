@@ -143,9 +143,3 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [34, 37]
   k: $$mdi:apple-keyboard-option$$
-- p: [17, 16]
-  k: '&layer_en'
-  l: [LAYER0]
-- p: [17, 16]
-  k: '&layer_ru'
-  l: [en]
