@@ -58,9 +58,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - sym_en
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - nav
   - RIGHT GUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -348,3 +348,15 @@ combos:
 - p: [15, 16]
   k: '&layer_ru'
   l: [en]
+- p: [30, 27, 29]
+  k: Alt+$$mdi:apple-keyboard-control$$
+- p: [34, 35, 37]
+  k: AltGr+$$mdi:apple-keyboard-control$$
+- p: [30, 27, 28]
+  k: Sft+$$mdi:apple-keyboard-option$$
+- p: [34, 37, 36]
+  k: Sft+$$mdi:apple-keyboard-option$$
+- p: [30, 27, 28, 29]
+  k: Sft+Alt+$$mdi:apple-keyboard-control$$
+- p: [34, 35, 36, 37]
+  k: Sft+AltGr+$$mdi:apple-keyboard-control$$
