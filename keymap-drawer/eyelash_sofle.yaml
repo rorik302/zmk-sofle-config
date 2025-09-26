@@ -216,7 +216,7 @@ layers:
   - '&en GREATER_THAN'
   - '&en GRAVE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '''', s: '"'}
+  - '&en SINGLE_QUOTE'
   - '&en LEFT_BRACKET'
   - +
   - '&en RIGHT_BRACKET'
@@ -227,9 +227,9 @@ layers:
   - (
   - {t: '-', s: _}
   - )
-  - '~'
+  - '&en TILDE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '"'
+  - '&en DOUBLE_QUOTES'
   - '&en LEFT_BRACE'
   - {t: '=', s: +}
   - '&en RIGHT_BRACE'
@@ -242,8 +242,8 @@ layers:
   - '&en SLASH'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ;, s: ':'}
-  - ':'
+  - '&en SEMICOLON'
+  - '&en COLON'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -256,8 +256,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - '&en COMMA'
+  - '&en DOT'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   nav:
