@@ -241,11 +241,11 @@
 
         SYM_EN {
             bindings = <
-&none  &kp F1  &kp F2                &kp F3          &kp F4                 &kp F5       &none  &kp F6             &kp F7            &kp F8     &kp F9             &kp F10  &kp F11
-&none  &none   &kp LESS_THAN         &kp UNDERSCORE  &kp GREATER_THAN       &kp GRAVE    &none  &kp SINGLE_QUOTE   &kp LEFT_BRACKET  &kp PLUS   &kp RIGHT_BRACKET  &none    &kp F12
-&none  &none   &kp LEFT_PARENTHESIS  &kp MINUS       &kp RIGHT_PARENTHESIS  &kp TILDE    &none  &kp DOUBLE_QUOTES  &kp LEFT_BRACE    &kp EQUAL  &kp RIGHT_BRACE    &none    &none
-&none  &none   &kp BACKSLASH         &kp PIPE        &kp SLASH              &none        &none  &kp SEMICOLON      &kp COLON         &none      &none              &none    &none
-&none  &none   &none                 &none           &none                  &none        &none  &none              &kp COMMA         &kp DOT    &none              &none
+&none  &kp F1  &kp F2            &kp F3     &kp F4             &kp F5       &none  &kp F6             &kp F7                &kp F8          &kp F9                 &kp F10       &kp F11
+&none  &none   &kp LESS_THAN     &kp PLUS   &kp GREATER_THAN   &kp GRAVE    &none  &kp SINGLE_QUOTE   &kp LEFT_BRACE        &kp UNDERSCORE  &kp RIGHT_BRACE        &none         &kp F12
+&none  &none   &kp LEFT_BRACKET  &kp EQUAL  &kp RIGHT_BRACKET  &kp TILDE    &none  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp MINUS       &kp RIGHT_PARENTHESIS  &none         &none
+&none  &none   &kp BACKSLASH     &kp PIPE   &kp SLASH          &none        &none  &kp SEMICOLON      &kp COLON             &none           &none                  &kp QUESTION  &none
+&none  &none   &none             &none      &none              &none        &none  &none              &kp COMMA             &kp DOT         &none                  &none
             >;
 
             label = "sym_en";
@@ -254,11 +254,11 @@
         SYM_RU {
             label = "sym_ru";
             bindings = <
-&none  &kp F1  &kp F2                &kp F3          &kp F4                 &kp F5       &none  &kp F6             &kp F7            &kp F8     &kp F9             &kp F10  &kp F11
-&none  &none   &en LESS_THAN         &kp UNDERSCORE  &en GREATER_THAN       &en GRAVE    &none  &en SINGLE_QUOTE   &en LEFT_BRACKET  &kp PLUS   &en RIGHT_BRACKET  &none    &kp F12
-&none  &none   &kp LEFT_PARENTHESIS  &kp MINUS       &kp RIGHT_PARENTHESIS  &en TILDE    &none  &en DOUBLE_QUOTES  &en LEFT_BRACE    &kp EQUAL  &en RIGHT_BRACE    &none    &none
-&none  &none   &kp BACKSLASH         &kp PIPE        &en SLASH              &none        &none  &en SEMICOLON      &en COLON         &none      &none              &none    &none
-&none  &none   &none                 &none           &none                  &none        &none  &none              &en COMMA         &en DOT    &none              &none
+&none  &kp F1  &kp F2            &kp F3     &kp F4             &kp F5       &none  &kp F6             &kp F7                &kp F8          &kp F9                 &kp F10       &kp F11
+&none  &none   &en LESS_THAN     &kp PLUS   &en GREATER_THAN   &en GRAVE    &none  &en SINGLE_QUOTE   &en LEFT_BRACE        &kp UNDERSCORE  &en RIGHT_BRACE        &none         &kp F12
+&none  &none   &en LEFT_BRACKET  &kp EQUAL  &en RIGHT_BRACKET  &en TILDE    &none  &en DOUBLE_QUOTES  &en LEFT_PARENTHESIS  &kp MINUS       &en RIGHT_PARENTHESIS  &none         &none
+&none  &none   &kp BACKSLASH     &kp PIPE   &en SLASH          &none        &none  &en SEMICOLON      &en COLON             &none           &none                  &en QUESTION  &none
+&none  &none   &none             &none      &none              &none        &none  &none              &en COMMA             &en DOT         &none                  &none
             >;
         };
 
