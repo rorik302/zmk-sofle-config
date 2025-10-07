@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -92,7 +92,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD LEFT BRACKET AND LEFT BRACE))
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
@@ -147,27 +147,27 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - <
-  - _
+  - +
   - '>'
   - {t: '`', s: '~'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '''', s: '"'}
-  - {t: '[', s: '{'}
-  - +
-  - {t: ']', s: '}'}
+  - '{'
+  - _
+  - '}'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - (
-  - {t: '-', s: _}
-  - )
+  - {t: '[', s: '{'}
+  - {t: '=', s: +}
+  - {t: ']', s: '}'}
   - '~'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '"'
-  - '{'
-  - {t: '=', s: +}
-  - '}'
+  - (
+  - {t: '-', s: _}
+  - )
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -181,7 +181,7 @@ layers:
   - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '?'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -212,27 +212,27 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&en LESS_THAN'
-  - _
+  - +
   - '&en GREATER_THAN'
   - '&en GRAVE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&en SINGLE_QUOTE'
-  - '&en LEFT_BRACKET'
-  - +
-  - '&en RIGHT_BRACKET'
+  - '&en LEFT_BRACE'
+  - _
+  - '&en RIGHT_BRACE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - (
-  - {t: '-', s: _}
-  - )
+  - '&en LEFT_BRACKET'
+  - {t: '=', s: +}
+  - '&en RIGHT_BRACKET'
   - '&en TILDE'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '&en DOUBLE_QUOTES'
-  - '&en LEFT_BRACE'
-  - {t: '=', s: +}
-  - '&en RIGHT_BRACE'
+  - '&en LEFT_PARENTHESIS'
+  - {t: '-', s: _}
+  - '&en RIGHT_PARENTHESIS'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -246,7 +246,7 @@ layers:
   - '&en COLON'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&en QUESTION'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
