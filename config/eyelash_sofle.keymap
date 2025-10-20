@@ -60,7 +60,7 @@
 &none  &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)    &none  &kp RA(NUMBER_6)  &kp RA(NUMBER_7)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(NUMBER_0)   &none
 &none  &kp RA(Q)         &kp RA(W)         &kp RA(E)         &kp RA(R)         &kp RA(T)           &none  &kp RA(Y)         &kp RA(U)         &kp RA(I)         &kp RA(O)         &kp RA(P)          &kp RA(LEFT_BRACKET)
 &none  &kp RA(A)         &kp RA(S)         &kp RA(D)         &kp RA(F)         &kp RA(G)           &none  &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(SEMICOLON)  &kp RA(SINGLE_QUOTE)
-&none  &kp RA(Z)         &kp RA(X)         &kp RA(C)         &kp RA(V)         &kp RA(B)           &none  &kp RA(N)         &kp RA(M)         &kp RA(COMMA)     &kp RA(DOT)       &kp RA(SLASH)      &kp RA(RIGHT_BRACKET)
+&mo 3  &kp RA(Z)         &kp RA(X)         &kp RA(C)         &kp RA(V)         &kp RA(B)           &none  &kp RA(N)         &kp RA(M)         &kp RA(COMMA)     &kp RA(DOT)       &kp RA(SLASH)      &kp RA(RIGHT_BRACKET)
 &none  &none             &none             &none             &none             &none               &none  &none             &none             &none             &none             &none
             >;
 
@@ -77,6 +77,18 @@
             >;
 
             label = "NAV";
+        };
+
+        FUNC {
+            bindings = <
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &none  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
+&none  &none   &none   &none   &none   &none     &none  &none   &none   &none   &none   &none    &kp F12
+&none  &none   &none   &none   &none   &none     &none  &none   &none   &none   &none   &none    &none
+&none  &none   &none   &none   &none   &none     &none  &none   &none   &none   &none   &none    &none
+&none  &none   &none   &none   &none   &none     &none  &none   &none   &none   &none   &none
+            >;
+
+            label = "FUNC";
         };
     };
 };
