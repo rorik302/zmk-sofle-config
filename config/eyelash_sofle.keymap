@@ -37,7 +37,105 @@
     behaviors {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left_ctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <30 29>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        left_shift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <30 28>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        left_alt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <30 27>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        left_ctrl+shift {
+            bindings = <&kp LC(LEFT_SHIFT)>;
+            key-positions = <30 29 28>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        left_ctrl+alt {
+            bindings = <&kp LC(LEFT_ALT)>;
+            key-positions = <30 29 27>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        left_shift+alt {
+            bindings = <&kp LS(LEFT_ALT)>;
+            key-positions = <30 27 28>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_ctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <34 35>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_shift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <34 36>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_alt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <34 37>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_ctrl+shift {
+            bindings = <&kp RC(RIGHT_SHIFT)>;
+            key-positions = <34 35 36>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_ctrl+alt {
+            bindings = <&kp RC(RIGHT_ALT)>;
+            key-positions = <34 35 37>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+
+        right_shift+alt {
+            bindings = <&kp RS(RIGHT_ALT)>;
+            key-positions = <34 37 36>;
+            require-prior-idle-ms = <120>;
+            layers = <0>;
+            timeout-ms = <30>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
