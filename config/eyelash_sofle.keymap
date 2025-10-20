@@ -47,13 +47,25 @@
             bindings = <
 &kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &bl BL_INC  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
 &kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T              &bl BL_DEC  &kp Y            &kp U         &kp I          &kp O         &kp P          &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G              &trans      &kp H            &kp J         &kp K          &kp L         &kp SEMICOLON  &kp SINGLE_QUOTE
-&trans          &kp Z         &kp X         &kp C         &kp V         &kp B              &trans      &kp N            &kp M         &kp COMMA      &kp PERIOD    &kp SLASH      &kp RIGHT_BRACKET
-&kp K_MUTE      &trans        &trans        &kp LEFT_GUI  &trans        &mt LCTRL SPACE    &trans      &mt RCTRL ENTER  &trans        &kp RIGHT_GUI  &trans        &trans
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G              &none       &kp H            &kp J         &kp K          &kp L         &kp SEMICOLON  &kp SINGLE_QUOTE
+&none           &kp Z         &kp X         &kp C         &kp V         &kp B              &none       &kp N            &kp M         &kp COMMA      &kp PERIOD    &kp SLASH      &kp RIGHT_BRACKET
+&kp K_MUTE      &none         &none         &kp LEFT_GUI  &none         &mt LCTRL SPACE    &none       &mt RCTRL ENTER  &none         &kp RIGHT_GUI  &none         &none
             >;
 
             label = "BASE";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+        };
+
+        SYM {
+            bindings = <
+&none  &kp RA(NUMBER_1)  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(NUMBER_4)  &kp RA(NUMBER_5)    &none  &kp RA(NUMBER_6)  &kp RA(NUMBER_7)  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)  &kp RA(NUMBER_0)   &none
+&none  &kp RA(Q)         &kp RA(W)         &kp RA(E)         &kp RA(R)         &kp RA(T)           &none  &kp RA(Y)         &kp RA(U)         &kp RA(I)         &kp RA(O)         &kp RA(P)          &kp RA(LEFT_BRACKET)
+&none  &kp RA(A)         &kp RA(S)         &kp RA(D)         &kp RA(F)         &kp RA(G)           &none  &kp RA(H)         &kp RA(J)         &kp RA(K)         &kp RA(L)         &kp RA(SEMICOLON)  &kp RA(SINGLE_QUOTE)
+&none  &kp RA(Z)         &kp RA(X)         &kp RA(C)         &kp RA(V)         &kp RA(B)           &none  &kp RA(N)         &kp RA(M)         &kp RA(COMMA)     &kp RA(DOT)       &kp RA(SLASH)      &kp RA(RIGHT_BRACKET)
+&none  &none             &none             &none             &none             &none               &none  &none             &none             &none             &none             &none
+            >;
+
+            label = "SYM";
         };
     };
 };
