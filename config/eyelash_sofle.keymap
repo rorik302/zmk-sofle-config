@@ -4,7 +4,6 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -45,11 +44,11 @@
 
         BASE {
             bindings = <
-&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &bl BL_INC  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
-&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T              &bl BL_DEC  &kp Y            &kp U         &kp I          &kp O         &kp P          &kp LEFT_BRACKET
-&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G              &none       &kp H            &kp J         &kp K          &kp L         &kp SEMICOLON  &kp SINGLE_QUOTE
-&none           &kp Z         &kp X         &kp C         &kp V         &kp B              &none       &kp N            &kp M         &kp COMMA      &kp PERIOD    &kp SLASH      &kp RIGHT_BRACKET
-&kp K_MUTE      &none         &none         &kp LEFT_GUI  &mo 1         &mt LCTRL SPACE    &none       &mt RCTRL ENTER  &mo 2         &kp RIGHT_GUI  &none         &none
+&kp ESCAPE      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5       &kp C_BRIGHTNESS_INC  &kp NUMBER_6     &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0   &kp BACKSPACE
+&kp TAB         &kp Q         &kp W         &kp E         &kp R         &kp T              &kp C_BRIGHTNESS_DEC  &kp Y            &kp U         &kp I          &kp O         &kp P          &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F         &kp G              &none                 &kp H            &kp J         &kp K          &kp L         &kp SEMICOLON  &kp SINGLE_QUOTE
+&none           &kp Z         &kp X         &kp C         &kp V         &kp B              &none                 &kp N            &kp M         &kp COMMA      &kp PERIOD    &kp SLASH      &kp RIGHT_BRACKET
+&kp K_MUTE      &none         &none         &kp LEFT_GUI  &mo 1         &mt LCTRL SPACE    &none                 &mt RCTRL ENTER  &mo 2         &kp RIGHT_GUI  &none         &none
             >;
 
             label = "BASE";
