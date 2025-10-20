@@ -33,20 +33,20 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - J
   - K
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Z
   - X
   - C
   - V
   - B
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
   - {t: ',', s: <}
@@ -54,14 +54,79 @@ layers:
   - {t: /, s: '?'}
   - {t: ']', s: '}'}
   - MUTE
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - RIGHT GUI
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  SYM:
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+1
+  - AltGr+2
+  - AltGr+3
+  - AltGr+4
+  - AltGr+5
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+6
+  - AltGr+7
+  - AltGr+8
+  - AltGr+9
+  - AltGr+0
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+Q
+  - AltGr+W
+  - AltGr+E
+  - AltGr+R
+  - AltGr+T
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+Y
+  - AltGr+U
+  - AltGr+I
+  - AltGr+O
+  - AltGr+P
+  - {t: 'AltGr+[', s: 'AltGr+{'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+A
+  - AltGr+S
+  - AltGr+D
+  - AltGr+F
+  - AltGr+G
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+H
+  - AltGr+J
+  - AltGr+K
+  - AltGr+L
+  - {t: AltGr+;, s: 'AltGr+:'}
+  - {t: AltGr+', s: AltGr+"}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+Z
+  - AltGr+X
+  - AltGr+C
+  - AltGr+V
+  - AltGr+B
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AltGr+N
+  - AltGr+M
+  - {t: 'AltGr+,', s: AltGr+<}
+  - {t: AltGr+., s: AltGr+>}
+  - {t: AltGr+/, s: 'AltGr+?'}
+  - {t: 'AltGr+]', s: 'AltGr+}'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
