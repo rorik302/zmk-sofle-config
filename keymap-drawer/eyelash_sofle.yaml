@@ -79,7 +79,7 @@ layers:
   - AltGr+9
   - AltGr+0
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '`', s: '~'}
   - AltGr+Q
   - AltGr+W
   - AltGr+E
