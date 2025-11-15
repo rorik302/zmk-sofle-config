@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - '5'
-  - $$mdi:brightness-5$$
+  - F13
   - '6'
   - '7'
   - '8'
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:brightness-7$$
+  - F14
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F15
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F16
   - N
   - M
   - {t: ',', s: <}
@@ -59,7 +59,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - SYM
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F17
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - NAV
   - RIGHT GUI
