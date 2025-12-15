@@ -106,7 +106,7 @@
         };
 
         right_alt {
-            bindings = <&kp RIGHT_ALT>;
+            bindings = <&kp LEFT_ALT>;
             key-positions = <34 37>;
             require-prior-idle-ms = <120>;
             layers = <0>;
@@ -122,7 +122,7 @@
         };
 
         right_ctrl+alt {
-            bindings = <&kp RC(RIGHT_ALT)>;
+            bindings = <&kp LC(LEFT_ALT)>;
             key-positions = <34 35 37>;
             require-prior-idle-ms = <120>;
             layers = <0>;
@@ -130,7 +130,7 @@
         };
 
         right_shift+alt {
-            bindings = <&kp RS(RIGHT_ALT)>;
+            bindings = <&kp LS(LEFT_ALT)>;
             key-positions = <34 37 36>;
             require-prior-idle-ms = <120>;
             layers = <0>;
